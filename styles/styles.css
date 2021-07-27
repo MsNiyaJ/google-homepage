@@ -35,3 +35,8 @@ nav div a{
     border-radius: 50%;
     margin-top: 10px;
 }
+
+#logo-div{
+    display: flex;
+    justify-content: center;
+}
