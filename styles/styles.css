@@ -46,13 +46,17 @@ nav div a{
     justify-content: space-evenly;
     align-items: center;
     width: 584px;
-    height: 34px;
+    height: 40px;
     border-width: 1px;
     border-style: solid;
     border-radius: 24px;
     border-color: rgb(209, 208, 208);
     margin: 0 auto;
     padding: 2px;
+}
+
+#search-bar-container:hover{
+    box-shadow: 0 0 3px grey;
 }
 
 #search-bar{
