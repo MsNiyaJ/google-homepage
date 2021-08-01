@@ -13,15 +13,15 @@
 nav{
     display: flex;
     justify-content: space-between;
-    word-spacing: 16px;
     align-items: center;
     margin-top: 13px;
 }
 
 #nav-left{
-    margin-left: 20px;
+    margin-left: 21px;
     font-size: 14px;
     padding: 5px;
+    word-spacing: 16px;
 }
 
 #nav-left a{
@@ -36,7 +36,7 @@ nav{
 }
 
 #nav-right ul li{
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 nav div a{
