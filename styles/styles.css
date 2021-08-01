@@ -93,3 +93,38 @@ button{
     color: rgb(60, 64, 67);
     font-size: 14px;
 }
+
+button:hover{
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.leaf-icon{
+    height: 14px;
+    margin-right: 2px;
+}
+
+#footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0;
+    font-size: 14px;
+    color: rgb(112, 117, 122);
+    background-color: rgb(242, 242, 242);
+}
+
+#footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+#footer-left ul, #footer-right ul{
+    display: flex;
+}
+
+#footer-left ul li, #footer-right ul li{
+    margin-left: 20px;
+}
