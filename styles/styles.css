@@ -1,11 +1,9 @@
-@import url("https://use.typekit.net/nqc4nxn.css");
+/* @import url("https://use.typekit.net/nqc4nxn.css"); */
 
 *{
     margin: 0;
     padding: 0;
-    font-family: liberation-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: arial, sans-serif;
     text-decoration: none;
     list-style: none;
 }
@@ -22,10 +20,6 @@ nav{
     font-size: 14px;
     padding: 5px;
     word-spacing: 16px;
-}
-
-#nav-left a{
-    font-family: arial, sans-serif;
 }
 
 #nav-right ul {
@@ -51,13 +45,18 @@ nav div a{
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin-top: 60px;
+}
+
+#search-bar-wrapper{
+    padding: 10px;
 }
 
 #search-bar-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 584px;
+    max-width: 584px;
     height: 40px;
     border-width: 1px;
     border-style: solid;
@@ -76,4 +75,21 @@ nav div a{
     height: 90%;
     border-style: none;
     outline: none;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+button{
+    background-color: rgb(248, 249, 250);
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center;
+    margin-left: 15px;
+    color: rgb(60, 64, 67);
+    font-size: 14px;
 }
