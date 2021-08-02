@@ -77,10 +77,11 @@ nav div a{
     outline: none;
 }
 
-#buttons{
+#buttons-container{
     display: flex;
     justify-content: center;
     padding: 20px;
+    height: 200px;
 }
 
 button{
@@ -92,10 +93,12 @@ button{
     margin-left: 15px;
     color: rgb(60, 64, 67);
     font-size: 14px;
+    height: 40px;
 }
 
 button:hover{
     border: 1px solid rgb(219, 219, 219);
+    cursor: pointer;
 }
 
 .leaf-icon{
@@ -108,7 +111,7 @@ button:hover{
     text-align: center;
     position: fixed;
     bottom: 0;
-    padding: 15px 0;
+    padding: 10px 0;
     font-size: 14px;
     color: rgb(112, 117, 122);
     background-color: rgb(242, 242, 242);
@@ -116,9 +119,11 @@ button:hover{
 
 #footer-info{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 30px;
+    align-items: center;
+    margin: 0 30px;
+    line-height: 40px;
 }
 
 #footer-left ul, #footer-right ul{
@@ -126,5 +131,20 @@ button:hover{
 }
 
 #footer-left ul li, #footer-right ul li{
-    margin-left: 20px;
+    margin-left: 25px;
+} 
+
+@media(max-width: 600px){
+    #footer-info{
+        flex-direction: column;
+    }
+    #footer-left{
+        order: 2;   
+    }
+    #footer-center{
+        order: 1;
+    }
+    #footer-right{
+        order: 3;
+    }
 }
