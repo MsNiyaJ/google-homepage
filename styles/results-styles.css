@@ -10,6 +10,15 @@
     border-radius: 50%;
 }
 
+.grey-text{
+    color:#666666;
+}
+
+.small-text{
+    font-size: 14px;
+}
+
+/* NAVBAR START */
 .logo{
     height: 30px;
     margin-right: 40px;
@@ -65,3 +74,32 @@
     border-style: none;
     outline: none;
 }
+
+/* NAVBAR END */
+
+main{
+    margin-left: 150px;
+    width: 660px;
+    height: 100%;
+}
+
+/* MENU START */
+.icon{
+    height: 15px;
+}
+
+#menu-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 660px;   
+}
+
+#menu-items{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* MENU END */
